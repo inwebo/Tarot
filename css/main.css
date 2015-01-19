@@ -1,0 +1,138 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 4em;
+    margin-top: 2em;
+    background: url("../img/317348724_94fcfdd50a_o.jpg");
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 4em;
+    line-height: 4em;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 999;
+}
+
+footer .container-fluid, footer .row, footer .row div{
+height: 100%;
+}
+.table-header {
+    border: solid 2px #222222;
+    font-weight: bold;
+}
+#scores-table {
+    background-color: rgba(255,255,255,0.7);
+    width: 100%;
+}
+#scores-table .table-header td {
+    border-right: solid 2px #222222;
+}
+
+#scores-table .table-scores-tours td {
+    border-right: dotted 2px #222222;
+}
+#scores-table .table-scores-tours td:first-child {
+    border-right: dotted 2px transparent;
+}
+#scores-table .table-scores-tours td:nth-child(2n) {
+    border-right: solid 2px #222222;
+}
+
+.table-header p {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0.25em;
+}
+.form-expendable[data-display-compact='false'] .primes-display-large{
+    display: none;
+}
+.form-expendable[data-display-compact='true'] .primes-display-large{
+    display: block;
+}
+
+.form-expendable .primes-display-large {
+    background-color: #ffffff;
+    z-index: 888;
+}
+
+.form-expendable .primes-display-large div, .form-expendable .primes-display-large select {
+display: inline-block;
+}
+
+
+.form-expendable .primes-display-large div {
+    width: 30%;
+}
+
+.form-expendable .primes-display-large select {
+    width: 65%;
+}
+
+.form-control-compact {
+    width: 3em;
+    max-width: 3em;
+}
+
+.form-control-compact a, .form-control-compact a:hover {
+    display: block;
+    font-weight: bolder;
+    text-decoration: none;
+    width: 8px;
+}
+
+
+#table-players-name p[contenteditable]:focus {
+    font-style: italic;
+}
+
+.player-name-editable:before{
+    content: '✎';
+    float: left;
+    font-size: medium;
+    font-variant: small-caps;
+    width: 1em;
+    margin-right: -1em;
+}
+
+#form-group-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(66,139,202,1);
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+    z-index: 998;
+    color: #f5f5f5;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    /*display: table;*/
+    display: none;
+}
+
+.input-group-addon {
+    min-width: 10em;
+}
+.primes-min-height {
+    min-height: 8em;
+    padding: 0.25em;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #428aca transparent transparent transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.hide-elements {
+    display: none;
+}
